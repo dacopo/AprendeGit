@@ -90,9 +90,11 @@ En la parte derecha de la pantalla, con fondo rosa y precedido con un símbolo "
 
 18. Haz un _commit_ de los cambios que hiciste en tu archivo para que queden a la cabeza de tu rama _master_ (local). En la parte inferior izquierda de la pantalla, verás un cuadro de texto donde ingresar un resumen ("Summary") y una descripción más elaborada ("Description", opcional). Escribe un resumen y una descripción (opcional) de tu _commit_ y da click en el boton de abajo ("Commit to <'nombre de la rama'>").
 
-19. Si todo salió bien, volverás a ver "0 changed files" y la pantalla vacía, y bajo del boton aparecerá una leyenda que dice "Commited just now". El botón de "Undo", a la derecha, te permitirá arrepentirte de tu _commit_ más reciente.
+19. Si todo salió bien, volverás a ver "0 changed files" y la pantalla vacía, y bajo del boton aparecerá una leyenda que dice "Commited just now". El botón de "Undo", a la derecha, te permite arrepentirte de tu _commit_ más reciente.
 
-20
+20. Si tu nuevo capítulo está listo para ser compartido con el resto de los colaboradores, ahora podemos hacer un _push_, que lo enviará al repositorio central _origin_, en la rama que creaste.
+
+21. 
 
 11. En la parte superior izquierda, donde dice "Current Repository" puedes ver el repositorio de trabajo actual, y al dar click podrás elegir abrir otros repositorios que tengas en tu computadora.
 

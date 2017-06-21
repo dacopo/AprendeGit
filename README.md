@@ -68,7 +68,10 @@ https://desktop.github.com)
 
 12. Revisa si existen otras ramas activas en el repositorio, dando click en donde dice "Current Branch".
 ![](imagenes/GitHub_desktop_branches.png)
+Elige la rama master, por lo pronto.
+
 13. Crea una nueva rama para tus cambios. En GitHub desktop, en el menú de hasta arriba, da click en "Branch" -> "New Branch".
+![](imagenes/GitHub_desktop_new_branch.png)
 
 11. En la parte superior izquierda, donde dice "Current Repository" puedes ver el repositorio de trabajo actual, y al dar click podrás elegir abrir otros repositorios que tengas en tu computadora.
 

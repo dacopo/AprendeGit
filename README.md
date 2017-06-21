@@ -52,13 +52,11 @@ https://desktop.github.com)
 
 6. Si todo salió bien, el repositorio Git ha sido _clonado_ a tu disco duro, y podrás ver sus archivos en la ruta que ingresaste (o que dejaste por default) en el inciso anterior.
 
-
-7. En la pantalla siguiente puedes interactuar con tu repositorio local para hacer _commits_ y actualizar repositorio local, pero también para interactuar con el repositorio remoto _origin_.
-
-8. En la pantalla siguiente, verás  la lista de cambios en tu área de trabajo, que no han sido sincronizados (_commit_) con tu _master branch_. Como el repositorio está recién clonado, debe mostrar: _0 changed files_
+7. En la pantalla siguiente puedes interactuar con tu repositorio local para hacer _commits_ y actualizar repositorio local, pero también para interactuar con el repositorio remoto _origin_. Verás  la lista de cambios en tu área de trabajo, que no han sido sincronizados (_commit_) con tu _master branch_. Como el repositorio está recién clonado, debe mostrar: _0 changed files_
 ![](imagenes/GitHub_desktop_pantalla_inicio.png)
 
-
+8. Es importante actualizar nuestro repositorio local frecuentemente para que nuestra versión local, sobre la que estamos realizando  cambios no se separe mucho de la versión del repositorio central, _origin_, y se más fácil integrarlos más adelante. Para esto, es necesario dar click en el tercer botón de la hilera en la parte superior de la pantalla, "Fetch origin":
+![](imagenes/GitHub_desktop_fetch_origin.png)
 
 9. Deja la pantalla de GitHub Desktop abierta y en un navegador busca y descarga un editor de Markdown (por ejemplo: http://markdownpad.com). Una vez descargado, instalalo en tu computadora.
 
@@ -99,6 +97,8 @@ Si das click derecho sobre los archivos de la lista a la izquierda, aparecen otr
 19. Si todo salió bien, volverás a ver "0 changed files" y la pantalla vacía, y bajo del boton aparecerá una leyenda que dice "Commited just now". El botón de "Undo", a la derecha, te permite arrepentirte de tu _commit_ más reciente.
 
 20. Si tu nuevo capítulo está listo para ser compartido con el resto de los colaboradores, ahora podemos hacer un _push_, que lo enviará al repositorio central _origin_, en la rama que creaste.
+
+21. Ahora 
 
 21. Después de hacer el _commit_, el tercer botón de la hilera de arriba (que se encarga de la interacción con el servidor Git central, _origin_), dirá "Push origin", y el ícono en la parte derecha tendrá un número 1, que es el número de _commits_ pendientes de sincronizar con el servidor.
 ![](imagenes/GitHub_desktop_push_origin.png)

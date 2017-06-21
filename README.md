@@ -76,6 +76,13 @@ Elige la rama master, por lo pronto.
 14. Escribe el nombre de tu nueva rama, por ejemplo, "Capitulo-2" (los nombres de las ramas no aceptan espacios). Si ya existe una rama con este nombre, intenta "Capitulo-3", "Capitulo-4", etc.
 ![](imagenes/GitHub_desktop_create_branch.png)
 
+15. Ahora actualiza el repositorio central (_origin_) para publicar esta nueva rama.
+![](imagenes/GitHub_desktop_push_branch.png)
+Esto actualizará el repositorio para todos los colaboradores, que podrán ver que alguien está trabajando en una rama paralela.
+Asegurate que tu nueva rama esté seleccionada como rama de trabajo (ver paso 12).
+
+16. Ahora regresa a tu editor Markdown. Hasta el final del archivo "Readme.md" escribe una nueva línea con tu nombre y un comentario sobre este tutorial.
+
 11. En la parte superior izquierda, donde dice "Current Repository" puedes ver el repositorio de trabajo actual, y al dar click podrás elegir abrir otros repositorios que tengas en tu computadora.
 
 - A la derecha, verás "Current Branch", que es la rama actual de trabajo, a la que se enviarán los _commits_. Podrás cambiar a otra rama de trabajo dando click, y eligiendo de la lista.

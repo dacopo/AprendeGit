@@ -60,85 +60,63 @@ https://desktop.github.com)
 
 9. Deja la pantalla de GitHub Desktop abierta y en un navegador busca y descarga un editor de Markdown (por ejemplo: http://markdownpad.com). Una vez descargado, instalalo en tu computadora.
 
-10. Abre tu editor de Markdown. Da click en "File" -> "Open". Busca directorio en donde se guardó el clon de este repositorio Git (en el paso 5 elegiste la ruta donde se guardarían los archivos) y abre el archivo "Readme.md". Ahí encontrarás el texto del tutorial que estás leyendo en este momento. Está escrito en formato Markdown, que permite dar formato a textos utilizando etiquetas muy sencillas (por ejemplo, rodear un palabra con guiones bajos, producirá un texto en \__itálicas_\_).
+10. Abre tu editor de Markdown. Da click en "File" -> "Open". Busca directorio en donde se guardó el clon de este repositorio Git (en el paso 5 elegiste la ruta donde se guardarían los archivos) y abre el archivo "Readme.md". Ahí encontrarás el texto del tutorial que estás leyendo en este momento. Está escrito en formato Markdown, que permite dar formato a textos utilizando etiquetas muy sencillas (por ejemplo, rodear un palabra con guiones bajos, producirá un texto en \__itálicas_\_). Deja esta ventanta abierta y, por lo pronto, regresa a la pantalla de GitHub Desktop.
 
-11. Deja esta ventanta abierta y, por lo pronto, regresa a la pantalla de GitHub Desktop.
+11. Cuando utilices GitHub para colaborar, hay que seguir buenas prácticas, que faciliten la convivencia y colaboración. En general, es de mala educación modificar la rama _master_ del repositorio público (que es de todos), sin solicitar la revisión de otros colaboradores. Por ello, es buena práctica crear nuevas ramas (_branch_) y trabajar sobre ellas, hasta que las modificaciones propuestas estén suficientemente "maduras". Cuando la versión de la rama que hayas creado esté lista, podrá ser fusionada con la rama principal.
 
-12. Cuando utilices GitHub para colaborar, hay que seguir buenas prácticas, que faciliten la convivencia y colaboración. En general, es de mala educación modificar la rama _master_ del repositorio público (que es de todos), sin solicitar la revisión de otros colaboradores. Por ello, es buena práctica crear nuevas ramas (_branch_) y trabajar sobre ellas, hasta que las modificaciones propuestas estén suficientemente "maduras". Cuando la versión de la rama que hayas creado esté lista, podrá ser fusionada con la rama principal.
-
-13. Revisa si existen otras ramas activas en el repositorio, dando click en donde dice "Current Branch".
+12. Revisa si existen otras ramas activas en el repositorio, dando click en donde dice "Current Branch".
 ![](imagenes/GitHub_desktop_branches.png)
 Elige la rama master, por lo pronto.
 
-14. Crea una nueva rama para tus cambios. En GitHub desktop, en el menú de hasta arriba, da click en "Branch" -> "New Branch".
+13. Crea una nueva rama para tus cambios. En GitHub desktop, en el menú de hasta arriba, da click en "Branch" -> "New Branch".
 ![](imagenes/GitHub_desktop_new_branch.png)
-
-<<<<<<< HEAD
-15. Escribe el nombre de tu nueva rama, por ejemplo, "Capitulo-2" (los nombres de las ramas no aceptan espacios). Si ya existe una rama con este nombre (por eso te pedí que verificaras las ramas existentes), intenta "Capitulo-3", "Capitulo-4", o algún nombre que describa lo que se va a trabajar en esta rama.
+Escribe el nombre de tu nueva rama, por ejemplo, "Capitulo-2" (los nombres de las ramas no aceptan espacios). Si ya existe una rama con este nombre (por eso te pedí que verificaras las ramas existentes), intenta "Capitulo-3", "Capitulo-4", o algún nombre que describa lo que se va a trabajar en esta rama.
 ![](imagenes/GitHub_desktop_create_branch.png)
 
-16. Ahora actualiza el repositorio central (_origin_) para publicar esta nueva rama.
-=======
-14. Escribe el nombre de tu nueva rama, por ejemplo, "Capitulo-2" (los nombres de las ramas no aceptan espacios). Si ya existe una rama con este nombre (por eso te pedí que verificaras las ramas existentes), intenta "Capitulo-3", "Capitulo-4", o algún nombre que describa lo que se va a trabajar en esta rama.
-![](imagenes/GitHub_desktop_create_branch.png)
-
-15. Ahora actualiza el repositorio central (_origin_) para publicar esta nueva rama.
->>>>>>> Capitulo-2
+14. Ahora actualiza el repositorio central (_origin_) para publicar esta nueva rama.
 ![](imagenes/GitHub_desktop_push_branch.png)
 Esto actualizará el repositorio para todos los colaboradores, que podrán ver que alguien está trabajando en una rama paralela.
 Asegurate que tu nueva rama esté seleccionada como rama de trabajo (ver paso 12).
 
-<<<<<<< HEAD
-17. Ahora regresa a tu editor Markdown. Ve al final del documento y añade una línea con tu nombre y algún comentario o sugerencia sobre este tutorial.
-=======
-16. Ahora regresa a tu editor Markdown. Ve al final del documento y añade una línea con tu nombre y algún comentario o sugerencia sobre este tutorial.
->>>>>>> Capitulo-2
+15. Ahora regresa a tu editor Markdown. Ve al final del documento y añade una línea con tu nombre y algún comentario o sugerencia sobre este tutorial.
 Después, crea un nuevo archivo llamado "Capitulo-2.md" (o algo relacionado con el nombre que le hayas dado a tu nueva rama) y guárdalo en la misma carpeta donde se encuentra "Readme.md".
 Escribe algo importante en tu nuevo archivo.
 Guarda el archivo y vuelve a la ventana de GitHub Desktop.
 
-<<<<<<< HEAD
-18. En GitHub Desktop notarás que los cambios que hiciste en "Readme.md" fueron detectados.
-=======
-17. En GitHub Desktop notarás que los cambios que hiciste en "Readme.md" fueron detectados.
->>>>>>> Capitulo-2
+16. En GitHub Desktop notarás que los cambios que hiciste en "Readme.md" fueron detectados.
 ![](imagenes/GitHub_desktop_cambios.png)
 En la parte izquierda, encontrarás la lista de archivos que fueron modificados. En este caso, si modificaste el archivo "Readme.md" y creaste un nuevo archivo, deberás encontrarlos aquí.
 Puedes hacer click en cada uno de ellos, para ver los cambios dentro de ese archivo en la parte derecha de la pantalla. Con fondo rosa y precedido con un símbolo "-", verás el contenido eliminado, y en verde precedido por "+" encontrarás el contenido agregado.
 Si das click derecho sobre los archivos de la lista a la izquierda, aparecen otras opciones. La palomita (o su ausencia) a la izquierda del nombre de cada archivo los incluye o excluye de un _commit_. Asegúrate que todos los archivos que modificaste estén palomeados.
 
-<<<<<<< HEAD
-19. Ahora, haremos el _commit_ de los cambios que hiciste en tus archivos para que queden a la cabeza de tu rama local _Capitulo-2_ (o como le hayas llamado) y rastreados por Git como una nueva versión. En la parte inferior izquierda de la pantalla, verás un cuadro de texto donde ingresar un resumen ("Summary") y una descripción más elaborada ("Description", opcional). Escribe un resumen y una descripción (opcional) de tu _commit_ y da click en el boton de abajo ("Commit to <'nombre de la rama'>").
+17. Ahora, haremos el _commit_ de los cambios que hiciste en tus archivos para que queden a la cabeza de tu rama local _Capitulo-2_ (o como le hayas llamado) y rastreados por Git como una nueva versión. En la parte inferior izquierda de la pantalla, verás un cuadro de texto donde ingresar un resumen ("Summary") y una descripción más elaborada ("Description", opcional). Escribe un resumen y una descripción (opcional) de tu _commit_ y da click en el boton de abajo ("Commit to <'nombre de la rama'>").
 
-20. Si todo salió bien, volverás a ver "0 changed files" y la pantalla vacía, y bajo del boton aparecerá una leyenda que dice "Commited just now". El botón de "Undo", a la derecha, te permite arrepentirte de tu _commit_ más reciente.
+18. Si todo salió bien, volverás a ver "0 changed files" y la pantalla vacía, y bajo del boton aparecerá una leyenda que dice "Commited just now". El botón de "Undo", a la derecha, te permite arrepentirte de tu _commit_ más reciente.
 
-21. Si tu nuevo capítulo está listo para ser compartido con el resto de los colaboradores, ahora podemos hacer un _push_, que lo enviará al repositorio central _origin_, en la rama que creaste.
+19. Si tu nuevo capítulo está listo para ser compartido con el resto de los colaboradores, ahora podemos hacer un _push_, que lo enviará al repositorio central _origin_, en la rama que creaste.
 
-22. Ahora regresa a al rama _master_ (ver el inciso 13).
+20. Después de hacer el _commit_, el tercer botón de la hilera de arriba (que se encarga de la interacción con el servidor Git central, _origin_), dirá "Push origin", y el ícono en la parte derecha tendrá un número 1, que es el número de _commits_ pendientes de sincronizar con el servidor.
+![](imagenes/GitHub_desktop_push_origin.png)
+Da click en él.
+Tu nuevo contenido ahora se encuentra en el servidor central (en GitHub, en este caso), bajo la rama que tú creaste y listo para que otros, al actualizar sus repositorios reciban tus cambios y puedan empezar a colaborar con tu capítulo.
+
+21. Una vez que tu capítulo esté terminado será necesario integrarlo a la rama _master_, es decir, vamos a hacer un _merge_ entre nuestra nueva rama y la rama master, pero para esto vamos a pedir a otros colaboradores que revisen la propuesta de cambios y acepten las modificaciones o indiquen comentarios pertinentes.
+
+22. Ve a la ventana de GitHub Desktop y regresa a al rama _master_ (ver el inciso 13).
 ![](imagenes/GitHub_desktop_branches.png)
 Al regresar a esta rama, deberás notar que tu archivo "Capitulo-2.md" (o el nombre que hayas usado), sobre el que estuviste trabajando, ha desaparecido. Esto es porque, si seguiste los pasos de esta guía adecuadamente, tus cambios se encuentran dentro del repositorio en tu nueva rama, y al cambiar de rama te presenta los archivos como están en la versión de la rama _master_. No te apures, vuelve a la ventana de GitHub Desktop y vuelve a cambiar a tu rama "Capitulo-2" (o el nombre que hayas usado), y el archivo volverá a aparecer en tu _workspace_.
+Es por esto que queremos fusionar las ramas, para que nuestro capítulo ya aparezca en la versión "oficial" (_master_) del documento.
 
 23. Ya que estés de nuevo en tu rama, vamos a pedir a nuestros colaboradores que revisen la actualización propuesta, antes de fusionarla con la rama _master_.
 Para esto, ve al menú principal y da click en "Branch" -> "Compare on GitHub".
-=======
-18. Ahora, haremos el _commit_ de los cambios que hiciste en tus archivos para que queden a la cabeza de tu rama local _Capitulo-2_ (o como le hayas llamado) y rastreados por Git como una nueva versión. En la parte inferior izquierda de la pantalla, verás un cuadro de texto donde ingresar un resumen ("Summary") y una descripción más elaborada ("Description", opcional). Escribe un resumen y una descripción (opcional) de tu _commit_ y da click en el boton de abajo ("Commit to <'nombre de la rama'>").
-
-19. Si todo salió bien, volverás a ver "0 changed files" y la pantalla vacía, y bajo del boton aparecerá una leyenda que dice "Commited just now". El botón de "Undo", a la derecha, te permite arrepentirte de tu _commit_ más reciente.
-
-20. Si tu nuevo capítulo está listo para ser compartido con el resto de los colaboradores, ahora podemos hacer un _push_, que lo enviará al repositorio central _origin_, en la rama que creaste.
-
-21. Ahora regresa a al rama _master_ (ver el inciso 13).
-![](imagenes/GitHub_desktop_branches.png)
->>>>>>> Capitulo-2
 
 
-21. Después de hacer el _commit_, el tercer botón de la hilera de arriba (que se encarga de la interacción con el servidor Git central, _origin_), dirá "Push origin", y el ícono en la parte derecha tendrá un número 1, que es el número de _commits_ pendientes de sincronizar con el servidor.
-![](imagenes/GitHub_desktop_push_origin.png)
-Da click en él.
 
-22. Tu nuevo contenido ahora se encuentra en el servidor central (en GitHub, en este caso), listo para que otros, al actualizar sus
 
-11. En la parte superior izquierda, donde dice "Current Repository" puedes ver el repositorio de trabajo actual, y al dar click podrás elegir abrir otros repositorios que tengas en tu computadora.
+
+
+
+- En la parte superior izquierda, donde dice "Current Repository" puedes ver el repositorio de trabajo actual, y al dar click podrás elegir abrir otros repositorios que tengas en tu computadora.
 
 - A la derecha, verás "Current Branch", que es la rama actual de trabajo, a la que se enviarán los _commits_. Podrás cambiar a otra rama de trabajo dando click, y eligiendo de la lista.
 

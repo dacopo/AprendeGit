@@ -97,3 +97,5 @@ Guarda el archivo y regresa a GitHub Desktop.
 
 - Esto te llevará a la página de GitHub del _commit_ en cuestión. Ahí se describen los cambios realizados en ese _commit_, e incluso se pueden explorar los archivos ("Browse files") en el estado en el que se encontraban en ese momento de la historia y descargar un _clon_ del proyecto de ese momento.
 ![](imagenes/GitHub_browse_files.png)
+
+Esta linea se eliminó!

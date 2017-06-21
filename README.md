@@ -31,7 +31,7 @@ Para esto, Git tiene un área de trabajo. Los cambios que haga el usuario a los 
  4. El colaborador hace un commit con estos cambios, actualizando alguna de las ramas de su repositorio local.
  5. El colaborador envía un pull request al repositorio origen, para que los administradores revisen y, en su caso, acepten los cambios y sean integrados (merge).
  6. Los demás colaboradores descargan los cambios propuestos (fetch), y los integran (merge) a sus ramas locales.
-
+ 
 # GUÍA PASO A PASO PARA COLABORAR CON GIT Y GITHUB
 
 - Ve a https://github.com y crea una cuenta.

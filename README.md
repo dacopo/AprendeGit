@@ -84,7 +84,11 @@ Asegurate que tu nueva rama esté seleccionada como rama de trabajo (ver paso 12
 16. Ahora regresa a tu editor Markdown. Hasta el final del archivo "Readme.md" escribe una nueva línea con tu nombre y un comentario sobre este tutorial.
 Guarda el archivo y regresa a GitHub Desktop.
 
-17. De regreso en GitHub Desktop verás
+17. De regreso en GitHub Desktop notarás que los cambios que hiciste en "Readme.md" fueron detectados.
+![](imagenes/GitHub_desktop_cambios.png)
+En la parte derecha de la pantalla, con fondo rosa y precedido con un símbolo "-", verás el contenido eliminado, y en verde precedido por "+" encontrarás el contenido agregado.
+
+18. Haz un _commit_ de los cambios que hiciste en tu archivo para que queden a la cabeza de tu rama _master_ (local). En la parte inferior izquierda de la pantalla, verás un cuadro de texto donde ingresar un resumen ("Summary") y una descripción más elaborada ("Description", opcional). Escribe un resumen y una descripción (opcional) de tu _commit_ y da click en el boton de abajo ("Commit to \\\<nombre de la rama>") 
 
 11. En la parte superior izquierda, donde dice "Current Repository" puedes ver el repositorio de trabajo actual, y al dar click podrás elegir abrir otros repositorios que tengas en tu computadora.
 
@@ -98,4 +102,9 @@ Guarda el archivo y regresa a GitHub Desktop.
 - Esto te llevará a la página de GitHub del _commit_ en cuestión. Ahí se describen los cambios realizados en ese _commit_, e incluso se pueden explorar los archivos ("Browse files") en el estado en el que se encontraban en ese momento de la historia y descargar un _clon_ del proyecto de ese momento.
 ![](imagenes/GitHub_browse_files.png)
 
-Esta linea se eliminó!
+
+Esta linea se agregó!
+
+
+
+@dacocp: Este tutorial necesita colaboradores!!!

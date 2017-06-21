@@ -36,5 +36,10 @@ Para esto, Git tiene un área de trabajo. Los cambios que haga el usuario a los 
 
 - Ve a https://github.com y crea una cuenta.
 - Descarga e instala un cliente git (por ejemplo: https://desktop.github.com)
-- Ingresa los datos de tu cuenta de GitHub:
-- Clona el repositorio: https://github.com/dacocp/AprendeGit
+![](imagenes/GitHub_desktop.png)
+- Ingresa los datos de tu cuenta de GitHub
+- Elige la opción "Clone a Repository":
+https://desktop.github.com)
+![](imagenes/GitHub_desktop_clone_1.png)
+- En el primer campo, ingresa la dirección de este repositorio (https://github.com/dacocp/AprendeGit) y en el segundo, la ruta donde desees guardar la copia local (se sugiere dejarlo como está):
+![](imagenes/GitHub_desktop_clone_2.png)

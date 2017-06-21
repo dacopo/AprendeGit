@@ -35,4 +35,4 @@ Para esto, Git tiene un área de trabajo. Los cambios que haga el usuario a los 
 # GUÍA PASO A PASO PARA COLABORAR CON GIT Y GITHUB
 
 - Ve a https://github.com y crea una cuenta.
-- Descarga un cliente git
+- Descarga e instala un cliente git (por ejemplo: https://desktop.github.com)

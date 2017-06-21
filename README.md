@@ -130,33 +130,8 @@ Al dar click en este botón nos llevará a la siguiente página, en donde podemo
 ![](/imagenes/GitHub_review.png)
 El dictamen será enviado al que generó el "Pull request" para que, en su caso, haga las modificaciones que se indiquen.
 
+Ahora, por favor ayudame a mejorar este documento mientras aprendes a utilizar Git y GitHub, unas de las herramientas más poderosas de colaboración que existen!
 
+Mi mail nombre de usuario en GitHub es __dacocp__, para que me pongas como revisor de tus cambios propuestos, y pueda ayudarte con tus problemas.
 
-
-
-
-
-- En la parte superior izquierda, donde dice "Current Repository" puedes ver el repositorio de trabajo actual, y al dar click podrás elegir abrir otros repositorios que tengas en tu computadora.
-
-- A la derecha, verás "Current Branch", que es la rama actual de trabajo, a la que se enviarán los _commits_. Podrás cambiar a otra rama de trabajo dando click, y eligiendo de la lista.
-
-- El último botón de la hilera "Fetch Origin" sirve para actualizar tu repositorio local con los datos del repositorio remoto _origin_, per cuando tengas cambios en tu repositorio local, se convertirá en "Push Origin", que enviará tus últimos _commits_ al repositorio central.
-
-- Más abajo, hasta la izquierda, verás "History", en donde muestra una lista de todos los _commits_ en la historia del proyecto. Elige alguno de ellos, y da click en una clave que se encuentra a la derecha del nombre del colaborador (en el caso de la imagen _91ef315_).
-![](imagenes/GitHub_desktop_history.png)
-
-- Esto te llevará a la página de GitHub del _commit_ en cuestión. Ahí se describen los cambios realizados en ese _commit_, e incluso se pueden explorar los archivos ("Browse files") en el estado en el que se encontraban en ese momento de la historia y descargar un _clon_ del proyecto de ese momento.
-![](imagenes/GitHub_browse_files.png)
-
-
-
-
-
-
-
-Esta linea se añadió!
-
-
-
-
-@dacocp: Este documento necesita colaboradores!
+Y siempre recuerda que es de mala educación publicar a la _master branch_ sin preguntar!

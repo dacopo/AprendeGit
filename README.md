@@ -35,29 +35,42 @@
 
 # GUÍA PASO A PASO PARA COLABORAR CON GIT Y GITHUB
 
-- Ve a https://github.com y crea una cuenta.
+1. Ve a https://github.com y crea una cuenta.
 
-- Descarga e instala el cliente git GitHub Desktop:
+2. Descarga e instala el cliente git GitHub Desktop:
    https://desktop.github.com
 
-- Elige la opción "Sign into Github.com" e los datos de tu cuenta de GitHub
+3. Elige la opción "Sign into Github.com" e los datos de tu cuenta de GitHub
 ![](imagenes/GitHub_desktop_login.png)
 
-- Elige la opción "Clone a Repository":
+4. Elige la opción "Clone a Repository":
 https://desktop.github.com)
 ![](imagenes/GitHub_desktop_clone_1.png)
 
-- En el primer campo, ingresa la dirección de este repositorio (https://github.com/dacocp/AprendeGit) y en el segundo, la ruta donde desees guardar la copia local (se sugiere dejarlo como está por default). Guarda o memoriza esta ruta, ya que ahí quedarán almacenados los archivos del proyecto.
+5. En el primer campo, ingresa la dirección de este repositorio (https://github.com/dacocp/AprendeGit) y en el segundo, la ruta donde desees guardar la copia local (se sugiere dejarlo como está por default). Guarda o memoriza esta ruta, ya que ahí quedarán almacenados los archivos del proyecto.
 ![](imagenes/GitHub_desktop_clone_2.png)
 
-- Si todo sale bien, el repositorio Git ha sido _clonado_ a tu disco duro, y podrás ver sus archivos en la ruta que ingresaste (o que dejaste por default) en el inciso anterior.
+6. Si todo salió bien, el repositorio Git ha sido _clonado_ a tu disco duro, y podrás ver sus archivos en la ruta que ingresaste (o que dejaste por default) en el inciso anterior.
 
-- En la pantalla siguiente, verás  la lista de cambios en tu área de trabajo, que no han sido sincronizados (_commit_) con tu _master branch_. Como el repositorio está recién clonado, debe mostrar: _0 changed files_
+7. En la pantalla siguiente, verás  la lista de cambios en tu área de trabajo, que no han sido sincronizados (_commit_) con tu _master branch_. Como el repositorio está recién clonado, debe mostrar: _0 changed files_
 ![](imagenes/GitHub_desktop_pantalla_inicio.png)
 
-- En esta pantalla podrás interactuar con tu repositorio local para hacer _commits_ y actualizar repositorio local, pero también para interactuar con el repositorio remoto _origin_.
+8. En esta pantalla podrás interactuar con tu repositorio local para hacer _commits_ y actualizar repositorio local, pero también para interactuar con el repositorio remoto _origin_.
 
-- En la parte superior izquierda, donde dice "Current Repository" puedes ver el repositorio de trabajo actual, y al dar click podrás elegir abrir otros repositorios que tengas en tu computadora.
+9. Deja la pantalla de GitHub Desktop abierta y en un navegador busca y descarga un editor de Markdown (por ejemplo: http://markdownpad.com). Una vez descargado, instalalo en tu computadora.
+
+10. Abre tu editor de Markdown. Da click en "File" -> "Open" y busca el archivo "Readme.md" en el directorio en donde se guardó el clon de este repositorio Git (en el paso 5 elegiste la ruta donde se guardarían los archivos).
+
+11. Verás el código Markdown de esta guía y podrás editarlo. Pero antes de que lo hagas, primero regresa a la pantalla de GitHub Desktop.
+![](imagenes/GitHub_desktop_pantalla_inicio.png)
+
+12. Cuando utilices GitHub para colaborar, hay que seguir buenas prácticas, que faciliten la convivencia y colaboración. En general, es de mala educación modificar la rama _master_ del repositorio público (que es de todos), sin solicitar la revisión de otros colaboradores. Por ello, es buena práctica crear nuevas ramas (_branch_) y trabajar sobre ellas, hasta que las modificaciones propuestas estén suficientemente "maduras". Cuando la versión de la rama que hayas creado esté lista, podrá ser fusionada con la rama principal.
+
+12. Revisa si existen otras ramas activas en el repositorio, dando click en donde dice "Current Branch".
+![](imagenes/GitHub_desktop_branches.png)
+13. Crea una nueva rama para tus cambios. En GitHub desktop, en el menú de hasta arriba, da click en "Branch" -> "New Branch".
+
+11. En la parte superior izquierda, donde dice "Current Repository" puedes ver el repositorio de trabajo actual, y al dar click podrás elegir abrir otros repositorios que tengas en tu computadora.
 
 - A la derecha, verás "Current Branch", que es la rama actual de trabajo, a la que se enviarán los _commits_. Podrás cambiar a otra rama de trabajo dando click, y eligiendo de la lista.
 
@@ -68,3 +81,5 @@ https://desktop.github.com)
 
 - Esto te llevará a la página de GitHub del _commit_ en cuestión. Ahí se describen los cambios realizados en ese _commit_, e incluso se pueden explorar los archivos ("Browse files") en el estado en el que se enconrtaban en ese momento de la historia y descargar un _clon_ del proyecto de ese momento.
 ![](imagenes/GitHub_browse_files.png)
+
+- Regresando a la pantalla inicial del GitHub Desktop,

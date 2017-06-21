@@ -52,10 +52,13 @@ https://desktop.github.com)
 
 6. Si todo salió bien, el repositorio Git ha sido _clonado_ a tu disco duro, y podrás ver sus archivos en la ruta que ingresaste (o que dejaste por default) en el inciso anterior.
 
-7. En la pantalla siguiente, verás  la lista de cambios en tu área de trabajo, que no han sido sincronizados (_commit_) con tu _master branch_. Como el repositorio está recién clonado, debe mostrar: _0 changed files_
+
+7. En la pantalla siguiente puedes interactuar con tu repositorio local para hacer _commits_ y actualizar repositorio local, pero también para interactuar con el repositorio remoto _origin_.
+
+8. En la pantalla siguiente, verás  la lista de cambios en tu área de trabajo, que no han sido sincronizados (_commit_) con tu _master branch_. Como el repositorio está recién clonado, debe mostrar: _0 changed files_
 ![](imagenes/GitHub_desktop_pantalla_inicio.png)
 
-8. En esta pantalla podrás interactuar con tu repositorio local para hacer _commits_ y actualizar repositorio local, pero también para interactuar con el repositorio remoto _origin_.
+
 
 9. Deja la pantalla de GitHub Desktop abierta y en un navegador busca y descarga un editor de Markdown (por ejemplo: http://markdownpad.com). Una vez descargado, instalalo en tu computadora.
 
@@ -87,9 +90,11 @@ Guarda el archivo y vuelve a la ventana de GitHub Desktop.
 
 17. En GitHub Desktop notarás que los cambios que hiciste en "Readme.md" fueron detectados.
 ![](imagenes/GitHub_desktop_cambios.png)
-En la parte derecha de la pantalla, con fondo rosa y precedido con un símbolo "-", verás el contenido eliminado, y en verde precedido por "+" encontrarás el contenido agregado.
+En la parte izquierda, encontrarás la lista de archivos que fueron modificados. En este caso, si modificaste el archivo "Readme.md" y creaste un nuevo archivo, deberás encontrarlos aquí.
+Puedes hacer click en cada uno de ellos, para ver los cambios dentro de ese archivo en la parte derecha de la pantalla. Con fondo rosa y precedido con un símbolo "-", verás el contenido eliminado, y en verde precedido por "+" encontrarás el contenido agregado.
+Si das click derecho sobre los archivos de la lista a la izquierda, aparecen otras opciones. La palomita (o su ausencia) a la izquierda del nombre de cada archivo los incluye o excluye de un _commit_. Asegúrate que todos los archivos que modificaste estén palomeados.
 
-18. Haz un _commit_ de los cambios que hiciste en tu archivo para que queden a la cabeza de tu rama _master_ (local). En la parte inferior izquierda de la pantalla, verás un cuadro de texto donde ingresar un resumen ("Summary") y una descripción más elaborada ("Description", opcional). Escribe un resumen y una descripción (opcional) de tu _commit_ y da click en el boton de abajo ("Commit to <'nombre de la rama'>").
+18. Ahora, haremos el _commit_ de los cambios que hiciste en tus archivos para que queden a la cabeza de tu rama local _Capitulo-2_ (o como le hayas llamado) y rastreados por Git como una nueva versión. En la parte inferior izquierda de la pantalla, verás un cuadro de texto donde ingresar un resumen ("Summary") y una descripción más elaborada ("Description", opcional). Escribe un resumen y una descripción (opcional) de tu _commit_ y da click en el boton de abajo ("Commit to <'nombre de la rama'>").
 
 19. Si todo salió bien, volverás a ver "0 changed files" y la pantalla vacía, y bajo del boton aparecerá una leyenda que dice "Commited just now". El botón de "Undo", a la derecha, te permite arrepentirte de tu _commit_ más reciente.
 
@@ -99,7 +104,7 @@ En la parte derecha de la pantalla, con fondo rosa y precedido con un símbolo "
 ![](imagenes/GitHub_desktop_push_origin.png)
 Da click en él.
 
-22. Has subido el p
+22. Tu nuevo contenido ahora se encuentra en el servidor central (en GitHub, en este caso), listo para que otros, al actualizar sus
 
 11. En la parte superior izquierda, donde dice "Current Repository" puedes ver el repositorio de trabajo actual, y al dar click podrás elegir abrir otros repositorios que tengas en tu computadora.
 
@@ -114,16 +119,16 @@ Da click en él.
 ![](imagenes/GitHub_browse_files.png)
 
 
-Esta linea se borró!
 
 
 
 
 
+Esta linea se añadió!
 
 
 
 
-
+@dacocp: Este documento necesita colaboradores!
 
 .

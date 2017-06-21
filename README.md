@@ -73,6 +73,9 @@ Elige la rama master, por lo pronto.
 13. Crea una nueva rama para tus cambios. En GitHub desktop, en el menú de hasta arriba, da click en "Branch" -> "New Branch".
 ![](imagenes/GitHub_desktop_new_branch.png)
 
+14. Escribe el nombre de tu nueva rama, por ejemplo, "Capitulo-2" (los nombres de las ramas no aceptan espacios). Si ya existe una rama con este nombre, intenta "Capitulo-3", "Capitulo-4", etc.
+![](imagenes/GitHub_desktop_create_branch.png)
+
 11. En la parte superior izquierda, donde dice "Current Repository" puedes ver el repositorio de trabajo actual, y al dar click podrás elegir abrir otros repositorios que tengas en tu computadora.
 
 - A la derecha, verás "Current Branch", que es la rama actual de trabajo, a la que se enviarán los _commits_. Podrás cambiar a otra rama de trabajo dando click, y eligiendo de la lista.

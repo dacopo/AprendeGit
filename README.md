@@ -36,8 +36,8 @@ Para esto, Git tiene un área de trabajo. Los cambios que haga el usuario a los 
 
 - Ve a https://github.com y crea una cuenta.
 
-- Descarga e instala un cliente git (por ejemplo:
-   https://desktop.github.com)
+- Descarga e instala el cliente git GitHub Desktop:
+   https://desktop.github.com
 
 - Elige la opción "Sign into Github.com" e los datos de tu cuenta de GitHub
 ![](imagenes/GitHub_desktop_login.png)

@@ -36,3 +36,5 @@ Para esto, Git tiene un área de trabajo. Los cambios que haga el usuario a los 
 
 - Ve a https://github.com y crea una cuenta.
 - Descarga e instala un cliente git (por ejemplo: https://desktop.github.com)
+- Ingresa los datos de tu cuenta de GitHub:
+- Clona el repositorio: https://github.com/dacocp/AprendeGit

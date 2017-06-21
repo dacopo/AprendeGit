@@ -46,7 +46,7 @@ Para esto, Git tiene un área de trabajo. Los cambios que haga el usuario a los 
 https://desktop.github.com)
 ![](imagenes/GitHub_desktop_clone_1.png)
 
-- En el primer campo, ingresa la dirección de este repositorio (https://github.com/dacocp/AprendeGit) y en el segundo, la ruta donde desees guardar la copia local (se sugiere dejarlo como está):
+- En el primer campo, ingresa la dirección de este repositorio (https://github.com/dacocp/AprendeGit) y en el segundo, la ruta donde desees guardar la copia local (se sugiere dejarlo como está por default):
 ![](imagenes/GitHub_desktop_clone_2.png)
 
 - En la pantalla siguiente, verás la lista de cambios en tu área de trabajo, que no han sido sincronizados (_commit_) con tu _master branch_. Como el repositorio está recién clonado, debe mostrar: _0 changed files_

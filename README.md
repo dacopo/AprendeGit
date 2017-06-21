@@ -89,3 +89,6 @@ Elige la rama master, por lo pronto.
 ![](imagenes/GitHub_browse_files.png)
 
 - Regresando a la pantalla inicial del GitHub Desktop,
+
+
+.sadsa

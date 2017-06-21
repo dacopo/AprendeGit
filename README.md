@@ -112,10 +112,23 @@ Para esto, ve al menú principal y da click en "Branch" -> "Compare on GitHub".
 ![](imagenes/GitHub_desktop_compare.png)
 Esto abrirá una ventana de navegador, en una página de GitHub que indica las diferencias entre nuestra rama, con la rama _master_ del servidor central. Todos los archivos que hayan sido añadidos o modificados aparecerán ahí, mostrando, como en el inciso 16, los cambios en el texto de los archivos (si son archivos de texto).
 ![](imagenes/GitHub_compare.png)
+Da click en "Create pull request", para que otros colaboradores revisen esta propuesta de modificación para que, en su caso, la aprueben, o sugieran cambios pertinentes.
 
-24. Da click en "Create pull request", para avisar a los demás colaboradores que es necesario revisar esta propuesta de modificacio.
+24. El "Pull request" es creado, solicitando la fusión de las dos ramas. En la pantalla ahora se mostrarán los datos del "Pull request", y su creador puede escribir comentarios adicionales describiendo sus modificaciones.
+![](imagenes/GitHub_pull_request.png)
+En la parte derecha de la ventana en "Reviewers", se puede solicitar que uno o más colaboradores hagan la revisión. Será necesario teclear su nombre de usuario y ellos recibirán un mail de notificación. El o los "Asignees", usualmente se eligen de entre los colaboradores que más participaron en el desarrollo de esta rama (y este "Pull request" en particular).
+Agrega a algún colaborador en tu lista de "Reviewers" y da click en "Create pull request".
 
+25. A continuación nos mostrará el "Pull request" creado.
+![](imagenes/GitHub_merge_pull_request.png)
+El creador del "Pull request" no debería ser quien lo revise y apruebe haciendo el _merge_, sino algun otro colaborador. Pero para continuar con esta guía lo revisaremos nosotros mismos. Si se te cierra la página donde estabamos, puedes regresar a ella facilmente. En la página de GitHub de nuestro repositorio (https://github.com/dacocp/AprendeGit, en nuestro caso), hay una pestaña que dice "Pull requests", en donde podemos encontrar todos los "Pull requests", aunque no nos hayan puesto como revisores.
+En la página, podrás notar que hay lugar para escribir comentarios de ida y vuelta con los demás colaboradores que lo estén revisando. Además, en la parte superior podemos ver tres pestañas "Conversation", "Commits" y "Files changed", en donde se pueden explorar a fondo los cambios propuestos. Si todo se ve bien y deseas integrar los cambios a la rama _master_, da click en "Merge pull request".
 
+26. Cuando un pull request en verdad es requerido por algún colaborador (en vez de que estar revisando nuestras propias modificaciones), la página hasta arriba tendrá un boton indicando "Add your review".
+![](/imagenes/GitHub_add_review.png)
+Al dar click en este botón nos llevará a la siguiente página, en donde podemos editar directamente los archivos propuestos, y al final dar un dictamen, como se muestra en la imagen.
+![](/imagenes/GitHub_review.png)
+El dictamen será enviado al que generó el "Pull request" para que, en su caso, haga las modificaciones que se indiquen.
 
 
 

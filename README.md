@@ -60,3 +60,5 @@ https://desktop.github.com)
 - En la parte superior izquierda, donde dice "Current Repository" puedes ver el repositorio de trabajo actual, y al dar click podrás elegir abrir otros repositorios que tengas en tu computadora.
 
 - A la derecha, verás "Current Branch", que es la rama actual de trabajo, a la que se enviarán los _commits_. Podrás cambiar a otra rama de trabajo dando click, y eligiendo de la lista.
+
+- El último botón de la hilera "Fetch Login" sirve para actualizar tu repositorio local con los datos del repositorio remoto _origin_.

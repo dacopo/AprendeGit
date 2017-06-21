@@ -4,33 +4,33 @@
 
 # ¿CÓMO FUNCIONA? / COMMITS y BRANCHES
 - Un repositorio Git es un directorio en tu disco duro, en donde todos los cambios a los archivos son rastreados por Git.
-- Git mantiene una versión master del proyecto (master branch) y tiene un registro de todos los cambios (commits) que han ocurrido en ella. Gráficamente, cada commit es un nodo, ligado a un commit anterior y a uno posterior.
+- Git mantiene una versión _master_ del proyecto (_master branch_) y tiene un registro de todos los cambios (commits) que han ocurrido en ella. Gráficamente, cada _commit_ es un nodo, ligado a un _commit_ anterior y a uno posterior.
 
 ![](imagenes/master_branch.png)
 
-- En cualquier momento es posible regresar a cualquier commit y seguir trabajando desde ese punto.
+- En cualquier momento es posible regresar a cualquier _commit_ y seguir trabajando desde ese punto.
 
 # RAMAS (BRANCHES) y MERGES
-- Si un usuario quiere trabajar en una línea paralela, dejando la versión principal de su proyecto intacta, puede generar una nueva rama, a partir de cualquier commit en la historia.
+- Si un usuario quiere trabajar en una línea paralela, dejando la versión principal de su proyecto intacta, puede generar una nueva rama, a partir de cualquier _commit_ en la historia.
 
 ![](imagenes/branches.png)
 
 - El usuario que puede elegir a qué rama quiere enviar sus cambios (en qué rama hace sus commits).
-- La nueva rama puede ser integrada (merge) con la rama master más adelante.
+- La nueva rama puede ser integrada (_merge_) con la rama _master_ más adelante.
 
 # ÁREA DE TRABAJO
-- Los nodos (commits) en las gráficas anteriores, representan versiones estables del proyecto. Es decir, no es deseable que cambios que hace un autor mientras desarrolla sus ideas se vean reflejados de inmediato en estas versiones. Una vez que el autor está convencido de sus modificaciones es que hace un commit para integrarlos.
-Para esto, Git tiene un área de trabajo. Los cambios que haga el usuario a los archivos en el área de trabajo no se verán reflejados en ninguna de las ramas rastreadas por Git sino hasta que el autor haga un commit, que integra los cambios hechos en el área de trabajo a la rama que el usuario elija. El commit actualiza la rama, agregando un nuevo nodo al final.
+- Los nodos (commits) en las gráficas anteriores, representan versiones estables del proyecto. Es decir, no es deseable que cambios que hace un autor mientras desarrolla sus ideas se vean reflejados de inmediato en estas versiones. Una vez que el autor está convencido de sus modificaciones es que hace un _commit_ para integrarlos.
+Para esto, Git tiene un área de trabajo. Los cambios que haga el usuario a los archivos en el área de trabajo no se verán reflejados en ninguna de las ramas rastreadas por Git sino hasta que el autor haga un _commit_, que integra los cambios hechos en el área de trabajo a la rama que el usuario elija. El _commit_ actualiza la rama, agregando un nuevo nodo al final.
 
 # ¿CÓMO COLABORAR CON GIT?
 - Todo lo que hemos mencionado hasta ahora sucede localmente en la computadora de un usuario. Pero los mismos principios se utilizan para colaborar con un equipo de personas, cada una de las cuales tendrá una copia local del repositorio en su disco duro.
 - Flujo de trabajo para colaborar con Git:
- 1. Se define un repositorio de origen (origin) que puede ser guardado en un servidor propio, o en sitios como GitHub o GitLab.
- 2. Los participantes clonan (clone) el repositorio origin en sus computadoras, generando una copia local, que pueden modificar sin temor de que sus cambios entren en conflicto con los de otros participantes.
+ 1. Se define un repositorio de origen (_origin_) que puede ser guardado en un servidor propio, o en sitios como GitHub o GitLab.
+ 2. Los participantes clonan (_clone_) el repositorio _origin_ en sus computadoras, generando una copia local, que pueden modificar sin temor de que sus cambios entren en conflicto con los de otros participantes.
  3. Un colaborador modifica los archivos en su área de trabajo local.
- 4. El colaborador hace un commit con estos cambios, actualizando alguna de las ramas de su repositorio local.
- 5. El colaborador envía un pull request al repositorio origen, para que los administradores revisen y, en su caso, acepten los cambios y sean integrados (merge).
- 6. Los demás colaboradores descargan los cambios propuestos (fetch), y los integran (merge) a sus ramas locales.
+ 4. El colaborador hace un _commit_ con estos cambios, actualizando alguna de las ramas de su repositorio local.
+ 5. El colaborador envía un _pull request_ (ya hablaremos de esto) al repositorio origen, para que los administradores revisen y, en su caso, acepten los cambios y sean integrados (_merge_).
+ 6. Los demás colaboradores descargan los cambios propuestos (_fetch_), y los integran (_merge_) a sus ramas locales.
 
 # GUÍA PASO A PASO PARA COLABORAR CON GIT Y GITHUB
 
@@ -49,5 +49,5 @@ https://desktop.github.com)
 - En el primer campo, ingresa la dirección de este repositorio (https://github.com/dacocp/AprendeGit) y en el segundo, la ruta donde desees guardar la copia local (se sugiere dejarlo como está por default):
 ![](imagenes/GitHub_desktop_clone_2.png)
 
-- En la pantalla siguiente, verás la lista de cambios en tu área de trabajo, que no han sido sincronizados (_commit_) con tu _master branch_. Como el repositorio está recién clonado, debe mostrar: _0 changed files_
+- En la pantalla siguiente, verás la lista de cambios en tu área de trabajo, que no han sido sincronizados (__) con tu _master branch_. Como el repositorio está recién clonado, debe mostrar: _0 changed files_
 ![](imagenes/GitHub_desktop_pantalla_inicio.png)

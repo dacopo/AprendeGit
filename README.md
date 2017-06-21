@@ -59,10 +59,9 @@ https://desktop.github.com)
 
 9. Deja la pantalla de GitHub Desktop abierta y en un navegador busca y descarga un editor de Markdown (por ejemplo: http://markdownpad.com). Una vez descargado, instalalo en tu computadora.
 
-10. Abre tu editor de Markdown. Da click en "File" -> "Open" y busca el archivo "Readme.md" en el directorio en donde se guardó el clon de este repositorio Git (en el paso 5 elegiste la ruta donde se guardarían los archivos).
+10. Abre tu editor de Markdown. Da click en "File" -> "Open". Busca directorio en donde se guardó el clon de este repositorio Git (en el paso 5 elegiste la ruta donde se guardarían los archivos) y abre el archivo "Readme.md". Ahí encontrarás el texto del tutorial que estás leyendo en este momento. Está escrito en formato Markdown, que permite dar formato a textos utilizando etiquetas muy sencillas (por ejemplo, rodear un palabra con guiones bajos, producirá un texto en \__itálicas_\_).
 
-11. Verás el código Markdown de esta guía y podrás editarlo. Pero antes de que lo hagas, primero regresa a la pantalla de GitHub Desktop.
-![](imagenes/GitHub_desktop_pantalla_inicio.png)
+11. Deja esta ventanta abierta y, por lo pronto, regresa a la pantalla de GitHub Desktop.
 
 12. Cuando utilices GitHub para colaborar, hay que seguir buenas prácticas, que faciliten la convivencia y colaboración. En general, es de mala educación modificar la rama _master_ del repositorio público (que es de todos), sin solicitar la revisión de otros colaboradores. Por ello, es buena práctica crear nuevas ramas (_branch_) y trabajar sobre ellas, hasta que las modificaciones propuestas estén suficientemente "maduras". Cuando la versión de la rama que hayas creado esté lista, podrá ser fusionada con la rama principal.
 
@@ -73,7 +72,7 @@ Elige la rama master, por lo pronto.
 13. Crea una nueva rama para tus cambios. En GitHub desktop, en el menú de hasta arriba, da click en "Branch" -> "New Branch".
 ![](imagenes/GitHub_desktop_new_branch.png)
 
-14. Escribe el nombre de tu nueva rama, por ejemplo, "Capitulo-2" (los nombres de las ramas no aceptan espacios). Si ya existe una rama con este nombre, intenta "Capitulo-3", "Capitulo-4", etc.
+14. Escribe el nombre de tu nueva rama, por ejemplo, "Capitulo-2" (los nombres de las ramas no aceptan espacios). Si ya existe una rama con este nombre (por eso te pedí que verificaras las ramas existentes), intenta "Capitulo-3", "Capitulo-4", o algún nombre que describa lo que se va a trabajar en esta rama.
 ![](imagenes/GitHub_desktop_create_branch.png)
 
 15. Ahora actualiza el repositorio central (_origin_) para publicar esta nueva rama.
@@ -81,10 +80,12 @@ Elige la rama master, por lo pronto.
 Esto actualizará el repositorio para todos los colaboradores, que podrán ver que alguien está trabajando en una rama paralela.
 Asegurate que tu nueva rama esté seleccionada como rama de trabajo (ver paso 12).
 
-16. Ahora regresa a tu editor Markdown. Hasta el final del archivo "Readme.md" escribe una nueva línea con tu nombre y un comentario sobre este tutorial.
-Guarda el archivo y regresa a GitHub Desktop.
+16. Ahora regresa a tu editor Markdown. Ve al final del documento y añade una línea con tu nombre y algún comentario o sugerencia sobre este tutorial.
+Después, crea un nuevo archivo llamado "Capitulo-2.md" (o algo relacionado con el nombre que le hayas dado a tu nueva rama) y guárdalo en la misma carpeta donde se encuentra "Readme.md".
+Escribe algo importante en tu nuevo archivo.
+Guarda el archivo y vuelve a la ventana de GitHub Desktop.
 
-17. De regreso en GitHub Desktop notarás que los cambios que hiciste en "Readme.md" fueron detectados.
+17. En GitHub Desktop notarás que los cambios que hiciste en "Readme.md" fueron detectados.
 ![](imagenes/GitHub_desktop_cambios.png)
 En la parte derecha de la pantalla, con fondo rosa y precedido con un símbolo "-", verás el contenido eliminado, y en verde precedido por "+" encontrarás el contenido agregado.
 
@@ -97,6 +98,8 @@ En la parte derecha de la pantalla, con fondo rosa y precedido con un símbolo "
 21. Después de hacer el _commit_, el tercer botón de la hilera de arriba (que se encarga de la interacción con el servidor Git central, _origin_), dirá "Push origin", y el ícono en la parte derecha tendrá un número 1, que es el número de _commits_ pendientes de sincronizar con el servidor.
 ![](imagenes/GitHub_desktop_push_origin.png)
 Da click en él.
+
+22. Has subido el p
 
 11. En la parte superior izquierda, donde dice "Current Repository" puedes ver el repositorio de trabajo actual, y al dar click podrás elegir abrir otros repositorios que tengas en tu computadora.
 
@@ -111,8 +114,4 @@ Da click en él.
 ![](imagenes/GitHub_browse_files.png)
 
 
-Esta linea se agregó!
-
-
-
-@dacocp: Este tutorial necesita colaboradores!!!
+Esta linea se borro!

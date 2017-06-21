@@ -61,4 +61,10 @@ https://desktop.github.com)
 
 - A la derecha, verás "Current Branch", que es la rama actual de trabajo, a la que se enviarán los _commits_. Podrás cambiar a otra rama de trabajo dando click, y eligiendo de la lista.
 
-- El último botón de la hilera "Fetch Login" sirve para actualizar tu repositorio local con los datos del repositorio remoto _origin_.
+- El último botón de la hilera "Fetch Origin" sirve para actualizar tu repositorio local con los datos del repositorio remoto _origin_, per cuando tengas cambios en tu repositorio local, se convertirá en "Push Origin", que enviará tus últimos _commits_ al repositorio central.
+
+- Más abajo, hasta la izquierda, verás "History", en donde muestra una lista de todos los _commits_ en la historia del proyecto. Elige alguno de ellos, y da click en una clave que se encuentra a la derecha del nombre del colaborador (en el caso de la imagen _91ef315_).
+![](imagenes/GitHub_desktop_history.png)
+
+- Esto te llevará a la página de GitHub del _commit_ en cuestión. Ahí se describen los cambios realizados en ese _commit_, e incluso se pueden explorar los archivos ("Browse files") en el estado en el que se enconrtaban en ese momento de la historia y descargar un _clon_ del proyecto de ese momento.
+![](imagenes/GitHub_browse_files.png)

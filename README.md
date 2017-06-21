@@ -164,3 +164,5 @@
 - Mi mail nombre de usuario en GitHub es __dacocp__, para que me pongas como revisor de tus cambios propuestos, y pueda ayudarte con tus problemas.
 
 - Y siempre recuerda que es de mala educación publicar a la _master branch_ sin preguntar!
+
+Gracias!

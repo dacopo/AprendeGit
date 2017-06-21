@@ -98,7 +98,9 @@ Si das click derecho sobre los archivos de la lista a la izquierda, aparecen otr
 
 20. Si tu nuevo capítulo está listo para ser compartido con el resto de los colaboradores, ahora podemos hacer un _push_, que lo enviará al repositorio central _origin_, en la rama que creaste.
 
-21. Ahora 
+21. Ahora regresa a al rama _master_ (ver el inciso 13).
+![](imagenes/GitHub_desktop_branches.png)
+
 
 21. Después de hacer el _commit_, el tercer botón de la hilera de arriba (que se encarga de la interacción con el servidor Git central, _origin_), dirá "Push origin", y el ícono en la parte derecha tendrá un número 1, que es el número de _commits_ pendientes de sincronizar con el servidor.
 ![](imagenes/GitHub_desktop_push_origin.png)

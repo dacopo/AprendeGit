@@ -81,9 +81,10 @@ Elige la rama master, por lo pronto.
 Esto actualizará el repositorio para todos los colaboradores, que podrán ver que alguien está trabajando en una rama paralela.
 Asegurate que tu nueva rama esté seleccionada como rama de trabajo (ver paso 12).
 
-16. Ahora regresa a tu editor Markdown. Hasta el final del archivo "Readme.md" escribe una nueva línea con tu nombre y un comentario sobre este tutorial. Guarda el archivo y regresa a GitHub Desktop.
+16. Ahora regresa a tu editor Markdown. Hasta el final del archivo "Readme.md" escribe una nueva línea con tu nombre y un comentario sobre este tutorial.
+Guarda el archivo y regresa a GitHub Desktop.
 
-17.
+17. De regreso en GitHub Desktop verás
 
 11. En la parte superior izquierda, donde dice "Current Repository" puedes ver el repositorio de trabajo actual, y al dar click podrás elegir abrir otros repositorios que tengas en tu computadora.
 
@@ -94,7 +95,5 @@ Asegurate que tu nueva rama esté seleccionada como rama de trabajo (ver paso 12
 - Más abajo, hasta la izquierda, verás "History", en donde muestra una lista de todos los _commits_ en la historia del proyecto. Elige alguno de ellos, y da click en una clave que se encuentra a la derecha del nombre del colaborador (en el caso de la imagen _91ef315_).
 ![](imagenes/GitHub_desktop_history.png)
 
-- Esto te llevará a la página de GitHub del _commit_ en cuestión. Ahí se describen los cambios realizados en ese _commit_, e incluso se pueden explorar los archivos ("Browse files") en el estado en el que se enconrtaban en ese momento de la historia y descargar un _clon_ del proyecto de ese momento.
+- Esto te llevará a la página de GitHub del _commit_ en cuestión. Ahí se describen los cambios realizados en ese _commit_, e incluso se pueden explorar los archivos ("Browse files") en el estado en el que se encontraban en ese momento de la historia y descargar un _clon_ del proyecto de ese momento.
 ![](imagenes/GitHub_browse_files.png)
-
-- Regresando a la pantalla inicial del GitHub Desktop,

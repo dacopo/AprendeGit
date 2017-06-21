@@ -94,7 +94,9 @@ En la parte derecha de la pantalla, con fondo rosa y precedido con un símbolo "
 
 20. Si tu nuevo capítulo está listo para ser compartido con el resto de los colaboradores, ahora podemos hacer un _push_, que lo enviará al repositorio central _origin_, en la rama que creaste.
 
-21. 
+21. Después de hacer el _commit_, el tercer botón de la hilera de arriba (que se encarga de la interacción con el servidor Git central, _origin_), dirá "Push origin", y el ícono en la parte derecha tendrá un número 1, que es el número de _commits_ pendientes de sincronizar con el servidor.
+![](imagenes/GitHub_desktop_push_origin.png)
+Da click en él.
 
 11. En la parte superior izquierda, donde dice "Current Repository" puedes ver el repositorio de trabajo actual, y al dar click podrás elegir abrir otros repositorios que tengas en tu computadora.
 

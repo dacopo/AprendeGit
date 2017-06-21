@@ -33,3 +33,6 @@ Para esto, Git tiene un área de trabajo. Los cambios que haga el usuario a los 
  6. Los demás colaboradores descargan los cambios propuestos (fetch), y los integran (merge) a sus ramas locales.
 
 # GUÍA PASO A PASO PARA COLABORAR CON GIT Y GITHUB
+
+- Ve a https://github.com y crea una cuenta.
+- Descarga e instala un cliente git (por ejemplo: https://desktop.github.com)

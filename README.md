@@ -33,4 +33,3 @@ Para esto, Git tiene un área de trabajo. Los cambios que haga el usuario a los 
  - Los demás colaboradores descargan los cambios propuestos (fetch), y los integran (merge) a sus ramas locales.
 
 # GUÍA PASO A PASO PARA COLABORAR CON GIT Y GITHUB
-- https://guides.github.com/activities/hello-world/

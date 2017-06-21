@@ -158,8 +158,9 @@
 
  - El dictamen será enviado al que generó el "Pull request" para que, en su caso, haga las modificaciones que se indiquen.
 
-Ahora, por favor ayudame a mejorar este documento mientras aprendes a utilizar Git y GitHub, unas de las herramientas más poderosas de colaboración que existen!
 
-Mi mail nombre de usuario en GitHub es __dacocp__, para que me pongas como revisor de tus cambios propuestos, y pueda ayudarte con tus problemas.
+- Ahora, por favor ayudame a mejorar este documento mientras aprendes a utilizar Git y GitHub, unas de las herramientas más poderosas de colaboración que existen!
 
-Y siempre recuerda que es de mala educación publicar a la _master branch_ sin preguntar!
+- Mi mail nombre de usuario en GitHub es __dacocp__, para que me pongas como revisor de tus cambios propuestos, y pueda ayudarte con tus problemas.
+
+- Y siempre recuerda que es de mala educación publicar a la _master branch_ sin preguntar!

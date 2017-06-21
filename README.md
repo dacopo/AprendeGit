@@ -25,11 +25,14 @@ Para esto, Git tiene un área de trabajo. Los cambios que haga el usuario a los 
 # ¿CÓMO COLABORAR CON GIT?
 - Todo lo que hemos mencionado hasta ahora sucede localmente en la computadora de un usuario. Pero los mismos principios se utilizan para colaborar con un equipo de personas, cada una de las cuales tendrá una copia local del repositorio en su disco duro.
 - Flujo de trabajo para colaborar con Git:
- - Se define un repositorio de origen (origin) que puede ser guardado en un servidor propio, o en sitios como GitHub o GitLab.
- - Los participantes clonan (clone) el repositorio origin en sus computadoras, generando una copia local, que pueden modificar sin temor de que sus cambios entren en conflicto con los de otros participantes.
- - Un colaborador modifica los archivos en su área de trabajo local.
- - El colaborador hace un commit con estos cambios, actualizando alguna de las ramas de su repositorio local.
- - El colaborador envía un pull request al repositorio origen, para que los administradores revisen y, en su caso, acepten los cambios y sean integrados (merge).
- - Los demás colaboradores descargan los cambios propuestos (fetch), y los integran (merge) a sus ramas locales.
+ 1. Se define un repositorio de origen (origin) que puede ser guardado en un servidor propio, o en sitios como GitHub o GitLab.
+ 2. Los participantes clonan (clone) el repositorio origin en sus computadoras, generando una copia local, que pueden modificar sin temor de que sus cambios entren en conflicto con los de otros participantes.
+ 3. Un colaborador modifica los archivos en su área de trabajo local.
+ 4. El colaborador hace un commit con estos cambios, actualizando alguna de las ramas de su repositorio local.
+ 5. El colaborador envía un pull request al repositorio origen, para que los administradores revisen y, en su caso, acepten los cambios y sean integrados (merge).
+ 6. Los demás colaboradores descargan los cambios propuestos (fetch), y los integran (merge) a sus ramas locales.
 
 # GUÍA PASO A PASO PARA COLABORAR CON GIT Y GITHUB
+
+- Ve a https://github.com y crea una cuenta.
+- Descarga un cliente git

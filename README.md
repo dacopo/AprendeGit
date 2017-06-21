@@ -58,3 +58,5 @@ https://desktop.github.com)
 - En esta pantalla podrás interactuar con tu repositorio local para hacer _commits_ y actualizar repositorio local, pero también para interactuar con el repositorio remoto _origin_.
 
 - Enasd
+sincronizadossad
+administradoressad

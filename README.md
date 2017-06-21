@@ -109,6 +109,13 @@ Es por esto que queremos fusionar las ramas, para que nuestro capítulo ya apare
 
 23. Ya que estés de nuevo en tu rama, vamos a pedir a nuestros colaboradores que revisen la actualización propuesta, antes de fusionarla con la rama _master_.
 Para esto, ve al menú principal y da click en "Branch" -> "Compare on GitHub".
+![](imagenes/GitHub_desktop_compare.png)
+Esto abrirá una ventana de navegador, en una página de GitHub que indica las diferencias entre nuestra rama, con la rama _master_ del servidor central. Todos los archivos que hayan sido añadidos o modificados aparecerán ahí, mostrando, como en el inciso 16, los cambios en el texto de los archivos (si son archivos de texto).
+![](imagenes/GitHub_compare.png)
+
+24. Da click en "Create pull request", para avisar a los demás colaboradores que es necesario revisar esta propuesta de modificacio.
+
+
 
 
 

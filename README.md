@@ -48,3 +48,6 @@ https://desktop.github.com)
 
 - En el primer campo, ingresa la dirección de este repositorio (https://github.com/dacocp/AprendeGit) y en el segundo, la ruta donde desees guardar la copia local (se sugiere dejarlo como está):
 ![](imagenes/GitHub_desktop_clone_2.png)
+
+- En la pantalla siguiente, verás la lista de cambios en tu área de trabajo, que no han sido sincronizados (_commit_) con tu _master branch_. Como el repositorio está recién clonado, debe mostrar: _0 changed files_
+![](imagenes/GitHub_desktop_pantalla_inicio.png)
